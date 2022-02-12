@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "399492322213",
+    "firebase_url": "https://pasar-malam-96593.firebaseio.com",
+    "project_id": "pasar-malam-96593",
+    "storage_bucket": "pasar-malam-96593.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399492322213:android:9bd6a4098ccb237f650e4c",
+        "android_client_info": {
+          "package_name": "com.example.pasarmalam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399492322213-gt8ak2em7vu79rvuvmlccp1c83dqbaqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZWsxelPgSx9fyn4SkC9BZplkD7UaHxtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399492322213-gt8ak2em7vu79rvuvmlccp1c83dqbaqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

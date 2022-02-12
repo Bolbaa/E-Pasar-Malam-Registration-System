@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sellerhomepage"
+        tools:context=".User.UserDashboard">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/white"
+                android:layout_marginBottom="100dp"
+                android:layout_marginTop="100dp">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="215dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical">
+
+                        <!-- Row 3 -->
+
+
+                        <!-- Row 1 -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="135dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal">
+                            //profile
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:layout_marginBottom="16dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#FFEB3B">
+
+                                    <ImageView
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_centerInParent="true"
+                                        android:background="@drawable/ic_action_user"
+                                        android:padding="10dp" />
+
+                                    <Button
+                                        android:id="@+id/txtEditProfile"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="30dp"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="50dp"
+                                        android:background="@color/white"
+                                        android:fontFamily="@font/abril_fatface"
+                                        android:hint="List of Users" />
+
+                                </RelativeLayout>
+                            </androidx.cardview.widget.CardView>
+                            <!-- QR Code -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:layout_marginBottom="16dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#FFEB3B">
+
+                                    <ImageView
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+                                        android:layout_centerInParent="true"
+                                        android:background="@drawable/pay"
+                                        android:padding="10dp" />
+
+                                    <Button
+                                        android:id="@+id/txtPayment"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="30dp"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="50dp"
+                                        android:background="@color/white"
+                                        android:fontFamily="@font/abril_fatface"
+                                        android:hint="Payment Status"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold" />
+
+                                </RelativeLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+                        </LinearLayout>
+
+                        <!-- Row 2 -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="135dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="horizontal"
+                            >
+
+                            <!-- Student details -->
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:layout_marginBottom="16dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#FFEB3B">
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_centerInParent="true"
+                                        android:layout_marginTop="0dp"
+                                        android:background="@drawable/location"
+                                        android:padding="10dp" />
+
+                                    <Button
+                                        android:id="@+id/txtLocations"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="30dp"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="50dp"
+                                        android:background="@color/white"
+                                        android:fontFamily="@font/abril_fatface"
+                                        android:hint="Location"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold" />
+
+                                </RelativeLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <!-- Candidate Details  -->
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/CandidateDetails"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:layout_marginBottom="16dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginRight="16dp">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#FFEB3B">
+
+                                    <ImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_centerInParent="true"
+                                        android:background="@drawable/menu"
+                                        android:padding="10dp" />
+
+                                    <Button
+                                        android:id="@+id/txtMenu"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="30dp"
+                                        android:layout_centerHorizontal="true"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginBottom="50dp"
+                                        android:background="@color/white"
+                                        android:fontFamily="@font/abril_fatface"
+                                        android:hint="Menu"
+                                        android:textColor="@color/black"
+                                        android:textStyle="bold" />
+
+                                </RelativeLayout>
+                            </androidx.cardview.widget.CardView>
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/white"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtName"
+                            android:layout_width="178dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="110dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:hint="Name"
+                            android:fontFamily="@font/abril_fatface"
+                            android:textColorHint="@color/black"
+                            android:textColor="@color/black"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                        <!-- Results -->
+
+
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.NavigationBar">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/sellerhomepage"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Fullname"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/userUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Username"
+            android:layout_below="@id/userName"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userUsername"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Email"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/userPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userEmail"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Password"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/userPhoneNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userPassword"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Phone Number"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/btn_del"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/userPhoneNum"
+            android:layout_marginTop="37dp"
+            android:src="@drawable/ic_delete" />
+
+    </RelativeLayout>
+
+    <com.ismaeldivita.chipnavigation.ChipNavigationBar
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom_navigation"
+        android:background="@drawable/barbackground"
+        android:elevation="16dp"
+        android:padding="8dp"
+        app:cnb_menuResource="@menu/menu_button"
+        />
+
+
+</RelativeLayout>

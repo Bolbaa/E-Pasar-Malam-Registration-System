@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Retrieve"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:gravity="center">
+
+
+        <TextView
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:text="User Information"
+            android:id="@+id/UserInfo"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/tvUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="Enter New Username"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+
+        <EditText
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter New Email"
+            android:textSize="18dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/tvPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter New Phone Number"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:inputType="phone"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/tvPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter New Password"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Update"
+            android:background="@color/colorPrimary"/>
+
+
+
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
